@@ -1,0 +1,22 @@
+{
+  "FunctionName": "NJS-App-request-quote",
+  "Projeto": "NJS-App-request-quote",
+  "UsaVPC": "Nao",
+  "Release": "1.0.4",
+
+  "Configuration": {
+    "Runtime": "nodejs12.x",
+    "Handler": "handler-request-quote.execute",
+    "Description": "Solicitar Cotacao",
+    "Timeout": 30,
+    "MemorySize": 256
+  },
+  "ReservedConcurrentExecutions": {
+    "ReservedConcurrentExecutions": 100
+  },
+  "Tags": {
+    "Tags": {
+      "obs": "Request Quote"
+    }
+  }
+}
