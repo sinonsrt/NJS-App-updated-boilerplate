@@ -7,7 +7,7 @@
   "Configuration": {
     "Runtime": "nodejs12.x",
     "Handler": "handler-request-quote.execute",
-    "Description": "Solicitar Cotacao",
+    "Description": "Request Quote",
     "Timeout": 30,
     "MemorySize": 256
   },
