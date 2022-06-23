@@ -1,13 +1,13 @@
 {
-  "FunctionName": "NJS-App-request-quote",
-  "Projeto": "NJS-App-request-quote",
+  "FunctionName": "function-name",
+  "Projeto": "project-name",
   "UsaVPC": "Nao",
   "Release": "1.0.4",
 
   "Configuration": {
     "Runtime": "nodejs12.x",
-    "Handler": "handler-request-quote.execute",
-    "Description": "Request Quote",
+    "Handler": "file.execute",
+    "Description": "Project description",
     "Timeout": 30,
     "MemorySize": 256
   },
@@ -16,7 +16,7 @@
   },
   "Tags": {
     "Tags": {
-      "obs": "Request Quote"
+      "obs": "Project description"
     }
   }
 }
